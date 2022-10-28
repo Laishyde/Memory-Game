@@ -1,0 +1,28 @@
+----iniciar repositorio----------
+git init
+
+---clonar repositório 
+git clone + endereço 
+
+---atualizar repositório 
+git pull 
+
+-- criar branch
+git checkout -b nome branch
+
+--- salvar alterações 
+git add .
+
+--- gravar alterações 
+git commit -m "alteração na cor primaria"
+
+--enviar branch para o repositório 
+git push
+
+--- enviar para master as alterações
+entrar na master 
+git merge nomedabranch
+
+
+-------------------------ANGULAR -------------------------
+ npm run start -- Rodar servidor 
