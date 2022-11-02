@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+main{
+    width: 100%;
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 83px;
+    background-color: aliceblue;
+    
+}
+.nav-bar{
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 80%;   
+    
+}
+.nav-menu li{
+    padding: 0 20px;    
+}
+
+.btn{
+    width: 110px;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #667eea ;
+    border-radius: 5px;
+    border: #ccc;
+    cursor: pointer;       
+}
+ .btn:hover {
+     background-color: #764ba2;
+ }
+
+ .nav-menu a {
+    text-decoration: none;
+    color:#667eea; 
+      
+ }
+ .icon-1 i{
+    width: 100px;
+    padding: 25px;
+    font-size: 40px;
+    color: #e796e5;
+    cursor: pointer;
+        
+ }
+ /* fim do header */
+ .container-content{
+    width: 100%;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+ }
+ 
+ .container{
+   width: 72%;
+   background-color: #764ba2;
+   margin-left: 186px;
+   background-image: url(../assets/imagens/sakura.png);
+   height: 400px;      
+ }
+ .container-2{
+    width: 600px;
+    padding-top: 250px;
+    padding-left: 40px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 20px;
+ }
+ .text-1{
+    padding: 20px;
+ }
+ .Content-1{
+    width: 72%;
+     margin-left: 186px; 
+    text-align: center;
+    padding: 40px;
+    line-height: 20px;
+    color: #667eea;   
+ }
+ .box{
+    display: flex;
+    width: 100%;
+ }
+ .box-1{
+    padding: 40px;
+    text-align: center;
+    line-height: 25px;
+    color: #667eea;
+ }
+ .box-1 h2{
+    padding: 20px;
+ }
+ .icon-2{
+    width: 18%;
+ }
+ .last-img{
+    width: 100%;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    display: flex;
+    justify-content: center;   
+ }
+ .last{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+ }
+ .last img{
+    margin-left: 100px;
+ }
+ .final{
+    width: 500px;
+    padding: 40px;
+    margin-right: 50px;
+    color: #667eea;;
+ }
+ .icon-3{
+    display: flex;
+    padding: 20px; 
+ }
+h2{
+    margin-left: 20px;
+}
+i{
+    font-size: 25px;
+}
+
+
+ 
+
+
+
+
+
+
+           
+
+
+
