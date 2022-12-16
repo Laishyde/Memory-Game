@@ -47,11 +47,22 @@ export function addSegments(){
     newSegments = 0
 }
 
-export function onSnake(position){
+export function onSnake(position, {ignoreHead = false} = {}){
    return snakeBody.some((segment, index) =>{
+      if(ignoreHead && index === 0) return
       return position.x == segment.x  && position.y == segment.y
 
    })
 }
+  export function getSnakeHead(){
+   return snakeBody[0]
+}
+export function snakeIntersection(){
+   return onSnake(getSnakeHead(),{
+      ignoreHead: true
+   })
+
+}
+ 
 
 
