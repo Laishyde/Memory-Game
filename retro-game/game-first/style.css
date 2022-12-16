@@ -5,19 +5,37 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: #ccc;
+    background-image: url(./assets/grama.jpg)
 }
 #game-bord{
-    background-color: rgb(61, 58, 58);
-    width: 80vmin;
-    height: 80vmin;
+    background-image: url(./assets/d21af287556141.5dbb731b0e047.jpg);
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    width: 100vmin;
+    height: 100vmin;
     display: grid;
     grid-template-rows: repeat(21, auto);
     grid-template-columns: repeat(21, auto);
 }
 .snake{
-    background-color: darkgreen;
+   background-image: url(./assets/istockphoto-1308781018-612x612.png);
+   border-radius: 3px;
+   width: 150px;
+   height: 150px;
+    background-position: center;
+        background-size: cover;
+ 
+   
+      
+       
 }
 .food{
-    background-color: crimson;
+    background-image: url(./assets/esfera.png);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+        height: 50px;
+    
+    
 }    
