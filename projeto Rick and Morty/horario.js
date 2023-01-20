@@ -1,1 +1,0 @@
-window.horario = new calcController();

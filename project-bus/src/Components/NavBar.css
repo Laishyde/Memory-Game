@@ -1,0 +1,47 @@
+.Nav{
+    background-image: url(../assets/fundo-anoite.png);
+    width: 100%;
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    color: antiquewhite;
+    position: relative;
+        overflow: hidden;
+    
+}
+.Bus{
+    padding-top: 300px;
+    
+  
+ 
+   
+    
+}
+img{
+    width:  350px;
+    padding-top: 78px;
+    display: flex;
+   
+  
+
+}
+
+ .walkin{
+    position: absolute;
+    animation: walkin-animation 10s infinite linear;
+
+}
+
+
+@keyframes walkin-animation {
+    from {
+        left: -80px;
+
+    }
+
+    to {
+        left: 100%;
+
+
+        }  
+      } 

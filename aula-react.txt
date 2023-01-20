@@ -1,0 +1,9 @@
+npx create-react-app
+
+
+atalho rafce
+
+pode haver um component pai além do App apenas importar no primeiro exemplo 
+
+
+npx kill-port 3000
