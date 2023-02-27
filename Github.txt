@@ -26,3 +26,9 @@ git merge nomedabranch
 
 -------------------------ANGULAR -------------------------
  npm run start -- Rodar servidor 
+
+
+
+git remote add origin https://github.com/Laishyde/Project-teste.git
+git branch -M main
+git push -u origin main
